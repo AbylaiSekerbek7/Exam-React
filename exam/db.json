@@ -1,0 +1,20 @@
+{
+    "books": [
+        {
+            "id": "0",
+            "title": "Гарри Потер",
+            "author": "Роулинг Дж. К",
+            "genre": "Fantasy",
+            "poster": "https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/migrated/article/9199/18_tn3.jpg",
+            "year": "2000"
+        },
+        {
+            "id": "1",
+            "title": "Frankenstein",
+            "author": "Mary Shelley",
+            "genre": "Fantasy",
+            "poster": "https://s-media-cache-ak0.pinimg.com/564x/f9/8e/2d/f98e2d661445620266c0855d418aab71.jpg",
+            "year": "2005"
+        }
+    ]
+}
