@@ -1,28 +1,36 @@
 {
-    "books": [
-        {
-            "id": "0",
-            "title": "Гарри Потер",
-            "author": "Роулинг Дж. К",
-            "genre": "Fantasy",
-            "poster": "https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/migrated/article/9199/18_tn3.jpg",
-            "year": "2000"
-        },
-        {
-            "id": "1",
-            "title": "Frankenstein",
-            "author": "Mary Shelley",
-            "genre": "Fantasy",
-            "poster": "https://s-media-cache-ak0.pinimg.com/564x/f9/8e/2d/f98e2d661445620266c0855d418aab71.jpg",
-            "year": "2005"
-        },
-        {
-            "id": "2",
-            "title": "A Little Princess",
-            "author": "Frances Hodgson Burnett",
-            "genre": "Scince",
-            "poster": "https://alysbcohen.files.wordpress.com/2015/01/little-princess-book-cover.jpg",
-            "year": "1997"
-        }
-    ]
+  "books": [
+    {
+      "id": "0",
+      "title": "Гарри Потер",
+      "author": "Роулинг Дж. К",
+      "genre": "Fantasy",
+      "poster": "https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/migrated/article/9199/18_tn3.jpg",
+      "year": "2000"
+    },
+    {
+      "id": "1",
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "genre": "Fantasy",
+      "poster": "https://s-media-cache-ak0.pinimg.com/564x/f9/8e/2d/f98e2d661445620266c0855d418aab71.jpg",
+      "year": "2005"
+    },
+    {
+      "id": "2",
+      "title": "A Little Princess",
+      "author": "Frances Hodgson Burnett",
+      "genre": "Scince",
+      "poster": "https://alysbcohen.files.wordpress.com/2015/01/little-princess-book-cover.jpg",
+      "year": "1997"
+    },
+    {
+      "id": "c6913015-9ecd-45f4-8a95-d3ae106b2c8f",
+      "title": "some",
+      "author": "some",
+      "genre": "",
+      "url": "http://www.publishersweekly.com/images/data/ARTICLE_PHOTO/photo/000/028/28129-1.JPG",
+      "year": ""
+    }
+  ]
 }

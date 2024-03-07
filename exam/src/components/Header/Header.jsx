@@ -14,8 +14,8 @@ const Header = () => {
           <li>
             <Link to={"/about"}>About</Link>
           </li>
-          <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="#">Functions &nbsp;<i class="fa fa-caret-down"></i></a>
-            <div class="dd">
+          <li className="dropdown"><a href="#">Functions &nbsp;<i className="fa fa-caret-down"></i></a>
+            <div className="dd">
               <div id="up_arrow"></div>
             <ul>
               <li><Link to={"/add"}>Add Book</Link></li>

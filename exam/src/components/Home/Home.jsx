@@ -24,15 +24,11 @@ const Home = () => {
     console.log(searched);
   }
 
-  const onChangeSearchValue = (event) => {
-    setTerm(event.target.value);
-  }
-
   return (
     <>
       <div className="box">
         <form name="search" onSubmit={(e) => {e.preventDefault(); SearchValue()}}>
-          <input type="text" className="input" name="txt" onChange={onChangeSearchValue()} onMouseOut="this.value = ''; this.blur();" placeholder="Search by Title, Author, Genre"/>
+          <input type="text" className="input" name="txt" onChange={(e) => (setTerm(e.target.value))} placeholder="Search by Title, Author, Genre"/>
           <button type="submit">Submit</button>
         </form>
       </div>
