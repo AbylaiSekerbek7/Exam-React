@@ -15,6 +15,14 @@
             "genre": "Fantasy",
             "poster": "https://s-media-cache-ak0.pinimg.com/564x/f9/8e/2d/f98e2d661445620266c0855d418aab71.jpg",
             "year": "2005"
+        },
+        {
+            "id": "2",
+            "title": "A Little Princess",
+            "author": "Frances Hodgson Burnett",
+            "genre": "Scince",
+            "poster": "https://alysbcohen.files.wordpress.com/2015/01/little-princess-book-cover.jpg",
+            "year": "1997"
         }
     ]
 }

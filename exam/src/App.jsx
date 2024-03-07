@@ -6,6 +6,7 @@ import Book from "./components/Book/Book";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Contacts from "./components/Contacts/Contacts";
+import Add_Book from "./components/Functions/Add/Add_Book";
 
 const App = () => {
   return (
@@ -17,7 +18,8 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/book/:id" element={<Book />} />
             <Route path="/about" element={<About />} />
-            <Route path="/contacts" element={<Contacts />}></Route>
+            <Route path="/contacts" element={<Contacts />} />
+            <Route path="/add" element={<Add_Book />} />
           </Routes>
         </div>
       </BrowserRouter>

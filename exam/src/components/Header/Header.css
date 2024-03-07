@@ -83,3 +83,25 @@ a {
     padding: 5px;
     color: black;
 }
+
+#container>nav>ul>.dropdown:hover {
+    border-bottom: none;
+}
+
+#container>nav>ul>.dropdown:hover>.dd {
+    display: block;
+}
+
+.dropdown:hover>a .fa-caret-down {
+    display: none;
+}
+
+#up_arrow {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 42%;
+    top: -10px;
+    background-color: aliceblue;
+    transform: rotate(45deg);
+}

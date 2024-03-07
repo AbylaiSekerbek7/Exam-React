@@ -5,6 +5,7 @@ import './Home.css';
 
 const Home = () => {
   const [books, setBooks] = useState([]);
+  const [term, setTerm] = useState("")
 
   useEffect(() => {
     axios.get("http://localhost:3001/books").then((res) => {
@@ -14,8 +15,27 @@ const Home = () => {
 
   console.log(books);
 
+  const SearchValue = () => {
+    const searched = books.filter((book) => {
+      book.title.toLocaleLowerCase() === term.toLocaleLowerCase() ||
+      book.author.toLocaleLowerCase() === term.toLocaleLowerCase() ||
+      book.genre.toLocaleLowerCase() === term.toLocaleLowerCase()
+    });
+    console.log(searched);
+  }
+
+  const onChangeSearchValue = (event) => {
+    setTerm(event.target.value);
+  }
+
   return (
     <>
+      <div className="box">
+        <form name="search" onSubmit={(e) => {e.preventDefault(); SearchValue()}}>
+          <input type="text" className="input" name="txt" onChange={onChangeSearchValue()} onMouseOut="this.value = ''; this.blur();" placeholder="Search by Title, Author, Genre"/>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
       <div id="large-th">
         <div className="container">
           <h1>List of Books</h1>
