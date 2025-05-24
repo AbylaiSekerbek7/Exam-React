@@ -39,6 +39,33 @@ A modern web application for browsing, searching, and managing books. Built with
 
 ---
 
+# Demo
+
+The db.json
+![image](https://github.com/user-attachments/assets/1523813c-8f21-46c4-b8ae-6557cae417eb)
+
+Home page
+![image](https://github.com/user-attachments/assets/66ac1138-c602-4a90-9162-2ea9e51b9e54)
+
+Books page
+![image](https://github.com/user-attachments/assets/f2f27cb3-a214-4215-8d72-421f16a691f0)
+
+Book page
+![image](https://github.com/user-attachments/assets/1fa0ec2e-2db1-429b-8e24-eaf79c367815)
+
+Search 
+![image](https://github.com/user-attachments/assets/cdc12f83-4d9d-48f9-a5c8-7d35e39e9609)
+
+Admin panel - all books
+![image](https://github.com/user-attachments/assets/9bf41907-1b2c-46cf-bde1-445c2c2410e7)
+
+Admin panel - add book
+![image](https://github.com/user-attachments/assets/1ae20c40-3d6e-4336-a900-bf22f6b7b195)
+
+
+
+---
+
 ## 💾 Getting Started
 
 1. **Clone the repository:**
